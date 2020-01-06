@@ -1,0 +1,15 @@
+.menu-flex{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.mn-item1{
+    flex: 1;
+    border: solid 2px red;
+}
+.mn-item2{
+    flex : 5;
+    text-align: center;
+    border: solid 2px rebeccapurple;
+}
