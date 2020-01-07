@@ -13,12 +13,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './component/menu/menu.component';
-
+import {HttpClientModule} from '@angular/common/http';
+import { HomeContentComponent } from './component/home-content/home-content.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    HomeContentComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { MenuComponent } from './component/menu/menu.component';
     MatToolbarModule,
     MatButtonModule,
     MatExpansionModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

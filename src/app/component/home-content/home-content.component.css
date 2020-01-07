@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+.home-cnt{
+  display: flex;
+  flex-direction: column;
+}
+
+.home-cnt1{
+  flex: 1;
+}
+
+.home-cnt12{
+  flex:1;
+}
+
+.cnt1-logo{
+  font-size: 26px;
+  line-height: 80px;
+  color: #02034E;
+  font-family: 'Poppins', sans-serif;
+}

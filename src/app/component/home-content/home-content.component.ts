@@ -3,11 +3,11 @@ import {DomSanitizer} from '@angular/platform-browser';
 import {MatIconRegistry} from '@angular/material/icon';
 
 @Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+  selector: 'app-home-content',
+  templateUrl: './home-content.component.html',
+  styleUrls: ['./home-content.component.css']
 })
-export class MenuComponent implements OnInit {
+export class HomeContentComponent implements OnInit {
 
   constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon('facebook',sanitizer.bypassSecurityTrustResourceUrl('/assets/image/facebook.svg'));
@@ -15,6 +15,7 @@ export class MenuComponent implements OnInit {
     iconRegistry.addSvgIcon('twitter',sanitizer.bypassSecurityTrustResourceUrl('/assets/image/twitter.svg'));
     iconRegistry.addSvgIcon('linkedin',sanitizer.bypassSecurityTrustResourceUrl('/assets/image/linkedin.svg'));
    }
+
 
   ngOnInit() {
   }
