@@ -9,6 +9,8 @@ import {MatIconRegistry} from '@angular/material/icon';
 })
 export class HomeContentComponent implements OnInit {
 
+  isActive = false
+
   constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon('facebook',sanitizer.bypassSecurityTrustResourceUrl('/assets/image/facebook.svg'));
     iconRegistry.addSvgIcon('instagram',sanitizer.bypassSecurityTrustResourceUrl('/assets/image/instagram.svg'));
@@ -18,6 +20,11 @@ export class HomeContentComponent implements OnInit {
 
 
   ngOnInit() {
+  }
+
+  onHover(state){
+    console.log('Test state');
+   this.isActive = state;
   }
 
 }
