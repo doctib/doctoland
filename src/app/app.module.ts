@@ -10,17 +10,18 @@ import {MatListModule} from '@angular/material/list';
 // EOF Material
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './component/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './component/menu/menu.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeContentComponent } from './component/home-content/home-content.component';
+import { SidenavComponent } from './component/sidenav/sidenav.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     MenuComponent,
-    HomeContentComponent
+    HomeContentComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,

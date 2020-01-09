@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-fix {
+  flex: 2;
+}
+
+.flex-cnt {
+  flex: 23;
+}
