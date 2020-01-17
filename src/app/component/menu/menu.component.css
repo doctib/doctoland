@@ -1,49 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-.menu-flex{
+.menu-flex {
     display: flex;
-    min-height: auto;
-    width: auto;
+    min-height: 100%;
+    min-width: 100%;
     flex-direction: column;
-    background-color:#252525;
-    opacity:0.9;
+    background-color: #252525;
+    opacity: 0.9;
     cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
 }
 
-.mn-item1{
+.mn-item1 {
     flex: 1;
 }
-.mn-item2{
-    flex : 5;
+
+.mn-item2 {
+    flex: 5;
     text-align: center;
 }
-.mn-item3{
-  flex: 2;
-  font-size: 14px;
-  line-height: 28px ;
-  font-family: 'Rubik', sans-serif;
-  justify-content: center;
-  text-align: center;
-  color: #FFFFFF;
+
+.mn-item3 {
+    flex: 2;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-#listitem{
-  font-size: 34px;
-  line-height: 40.8px;
-  color: rgb(234, 235, 240);
-  font-family: 'Poppins', sans-serif;
-  justify-content: center;
+#listitem {
+    font-size: 34px;
+    line-height: 40.8px;
+    color: rgb(234, 235, 240);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
 }
 
-#listitem :hover{
-  color: #505CFD;
+#listitem :hover {
+    color: #505CFD;
 }
 
-.mn-item3 > div > ul > li {
-  display: inline;
-  padding: 3px;
-  margin: 5px;
+.mn-item3>div>ul>li {
+    display: inline;
+    padding: 3px;
+    margin: 5px;
 }
-
-
-

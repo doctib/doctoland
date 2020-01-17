@@ -1,44 +1,68 @@
 <div class="home-cnt">
-  <div class="home-cnt1">
-    <div class="cnt1-logo">
-      Doctoland
-    </div>
-    <div class="cnt1-sm">
-      <ul>
-        <li>
-          <mat-icon svgIcon="facebook" aria-hidden="false" aria-label="Example thumbs up SVG icon"
-            [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)"></mat-icon>
-        </li>
-        <li>
-          <mat-icon svgIcon="instagram" aria-hidden="false" aria-label="Example thumbs up SVG icon"
-            [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)">
-          </mat-icon>
-        </li>
-        <li>
-          <mat-icon svgIcon="linkedin" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
-        </li>
-        <li>
-          <mat-icon svgIcon="twitter" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="home-cnt2">
-    <mat-grid-list cols="2" rowHeight="2:2">
-      <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
-      <mat-grid-tile>
-        <div>
-          <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
-          <br />
-          <div class="title-2">We Create technology people love</div>
-          <br />
-          <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
-          <br />
+    <div class="home-cnt1">
+        <div class="cnt1-logo">
+            Doctoland
         </div>
-      </mat-grid-tile>
-      <mat-grid-tile>3</mat-grid-tile>
-      <mat-grid-tile>4</mat-grid-tile>
-    </mat-grid-list>
-
-  </div>
+        <div class="cnt1-sm">
+            <ul>
+                <li>
+                    <mat-icon svgIcon="facebook" aria-hidden="false" aria-label="Example thumbs up SVG icon" [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)"></mat-icon>
+                </li>
+                <li>
+                    <mat-icon svgIcon="instagram" aria-hidden="false" aria-label="Example thumbs up SVG icon" [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)">
+                    </mat-icon>
+                </li>
+                <li>
+                    <mat-icon svgIcon="linkedin" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+                </li>
+                <li>
+                    <mat-icon svgIcon="twitter" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="home-cnt2">
+        <mat-grid-list cols="2" rowHeight="2:2">
+            <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
+            <mat-grid-tile>
+                <div>
+                    <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
+                    <br />
+                    <div class="title-2">We Create technology people love</div>
+                    <br />
+                    <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
+                    <br />
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
+                <mat-grid-tile>
+                    <div>
+                        <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
+                        <br />
+                        <div class="title-2">We Create technology people love</div>
+                        <br />
+                        <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
+                        <br />
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
+                <mat-grid-tile>
+                    <div>
+                        <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
+                        <br />
+                        <div class="title-2">We Create technology people love</div>
+                        <br />
+                        <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
+                        <br />
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    <div class="home-cnt3" (click)="testDialog()">
+        <button mat-fab color="primary"><img src="../../../assets/image/call.png" alt="call.png" width="20px" height="20px"/></button>
+    </div>
 </div>

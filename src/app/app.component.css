@@ -1,12 +1,25 @@
 .flex {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-fix {
-  flex: 2;
+    flex: 2;
 }
 
 .flex-cnt {
-  flex: 23;
+    flex: 23;
+}
+
+.example-box {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: move;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
 }
