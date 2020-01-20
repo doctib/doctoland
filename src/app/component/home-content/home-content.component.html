@@ -1,68 +1,163 @@
 <div class="home-cnt">
-    <div class="home-cnt1">
-        <div class="cnt1-logo">
-            Doctoland
+  <div class="home-cnt1">
+    <div class="cnt1-logo">
+      Doctoland
+    </div>
+    <div class="cnt1-sm">
+      <ul>
+        <li>
+          <mat-icon svgIcon="facebook" aria-hidden="false" aria-label="Example thumbs up SVG icon"
+            [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)"></mat-icon>
+        </li>
+        <li>
+          <mat-icon svgIcon="instagram" aria-hidden="false" aria-label="Example thumbs up SVG icon"
+            [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)">
+          </mat-icon>
+        </li>
+        <li>
+          <mat-icon svgIcon="linkedin" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+        </li>
+        <li>
+          <mat-icon svgIcon="twitter" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="home-cnt2">
+    <mat-grid-list cols="2" rowHeight="2:3">
+      <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
+      <mat-grid-tile>
+        <div>
+          <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
+          <br />
+          <div class="title-2">We Create technology people love</div>
+          <br />
+          <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
+          <br />
+          <br />
+          <br />
+          <button id="bt-1" mat-button>Make Oppointment</button>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <a href="#title2"><button mat-fab class="download"><img src="../../../assets/image/arrow_down.svg"
+                height="25px" width="25px" alt="down_arrow.png" /></button></a>
         </div>
-        <div class="cnt1-sm">
-            <ul>
-                <li>
-                    <mat-icon svgIcon="facebook" aria-hidden="false" aria-label="Example thumbs up SVG icon" [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)"></mat-icon>
-                </li>
-                <li>
-                    <mat-icon svgIcon="instagram" aria-hidden="false" aria-label="Example thumbs up SVG icon" [class.mat-elevation-z8]="isActive" (mouseover)="onHover(true)" (mouseleave)="onHover(false)">
-                    </mat-icon>
-                </li>
-                <li>
-                    <mat-icon svgIcon="linkedin" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
-                </li>
-                <li>
-                    <mat-icon svgIcon="twitter" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
-                </li>
-            </ul>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <div>
+          <div id="title1">So ? What is Doctolan ?</div>
+          <br />
+          <br />
+          <br />
+          <div><img src="../../../assets/image/image.webp" height="500px" width=" 550px" /></div>
         </div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <div>
+          <div id="title2">Our process</div>
+          <br />
+          <br />
+          <br />
+          <div id="desc">Growth hacking is generally a small data-driven and technical group tasked with figuring out
+            how to scale
+            the business.
+
+            The primary goal is to increase company sales, boost ROI and improving ROAS through smart thinking and data
+            analysis.
+
+            We start from the idea, create prototypes and design, code and polish it to the final product which can be a
+            website or E-commerce. Then through technical marketing, we deliver it to a brand’s potential customers
+            through social media, advertising, email, chatbots, and a lot more. And finally, we grab all the statistics
+            and work with it to provide a delightful result.</div>
+        </div>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <div class="home-cnt4">
+    <mat-grid-list cols="2" rowHeight="2:1">
+      <mat-grid-tile>
+        <div>
+          <div id="cnt4-title1">Yes, these are real testimonials ❤️</div>
+          <br />
+          <div id="cnt4-title2">Our clients say</div>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile>2</mat-grid-tile>
+    </mat-grid-list>
+  </div>
+
+  <div class="home-cnt5">
+
+    <!--
+     Start Code
+   -->
+    <div>
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle style="color: #595959;">General Doctor</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+      </mat-card>
     </div>
-    <div class="home-cnt2">
-        <mat-grid-list cols="2" rowHeight="2:2">
-            <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
-            <mat-grid-tile>
-                <div>
-                    <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
-                    <br />
-                    <div class="title-2">We Create technology people love</div>
-                    <br />
-                    <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
-                    <br />
-                </div>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
-                <mat-grid-tile>
-                    <div>
-                        <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
-                        <br />
-                        <div class="title-2">We Create technology people love</div>
-                        <br />
-                        <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
-                        <br />
-                    </div>
-                </mat-grid-tile>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-grid-tile><img src="../../../assets/image/logo.png" alt="logo.png" /></mat-grid-tile>
-                <mat-grid-tile>
-                    <div>
-                        <div class="title-1"><u>Trusted</u> By many doctors, practitioner </div>
-                        <br />
-                        <div class="title-2">We Create technology people love</div>
-                        <br />
-                        <div class="title-3">Doctoland is a digital company which provides solution for better health in Africa</div>
-                        <br />
-                    </div>
-                </mat-grid-tile>
-            </mat-grid-tile>
-        </mat-grid-list>
+
+    <div>
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+      </mat-card>
     </div>
-    <div class="home-cnt3" (click)="testDialog()">
-        <button mat-fab color="primary"><img src="../../../assets/image/call.png" alt="call.png" width="20px" height="20px"/></button>
+
+
+    <div>
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+      </mat-card>
     </div>
+    <!--
+     End Code
+   -->
+
+  </div>
+
+  <div class="home-cnt3" (click)="openDialog()">
+    <button mat-fab color="primary"><img src="../../../assets/image/call.png" alt="call.png" width="20px"
+        height="20px" /></button>
+  </div>
 </div>

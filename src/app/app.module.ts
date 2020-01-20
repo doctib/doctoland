@@ -11,16 +11,20 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import {MatCardModule} from '@angular/material/card';
 // EOF Material
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './component/menu/menu.component';
 import { HttpClientModule } from '@angular/common/http';
-import { HomeContentComponent, DialogOverviewExampleDialog } from './component/home-content/home-content.component';
+import {
+  HomeContentComponent,
+  DialogOverviewExampleDialog
+} from './component/home-content/home-content.component';
 import { SidenavComponent } from './component/sidenav/sidenav.component';
+// tslint:disable-next-line: max-line-length
 import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-sheet-overview-social-media/bottom-sheet-overview-social-media.component';
-
 
 @NgModule({
   declarations: [
@@ -30,7 +34,6 @@ import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-shee
     SidenavComponent,
     BottomSheetOverviewSocialMediaComponent,
     DialogOverviewExampleDialog
-    
   ],
   imports: [
     BrowserModule,
@@ -46,11 +49,12 @@ import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-shee
     MatDialogModule,
     MatTooltipModule,
     MatBottomSheetModule,
-    DragDropModule
+    DragDropModule,
+    MatCardModule
   ],
   exports: [],
-  entryComponents: [BottomSheetOverviewSocialMediaComponent],
+  entryComponents: [BottomSheetOverviewSocialMediaComponent,DialogOverviewExampleDialog],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
