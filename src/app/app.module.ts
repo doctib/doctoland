@@ -12,6 +12,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input'; 
 // EOF Material
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import {
 import { SidenavComponent } from './component/sidenav/sidenav.component';
 // tslint:disable-next-line: max-line-length
 import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-sheet-overview-social-media/bottom-sheet-overview-social-media.component';
+import { SearchResutlComponent } from './component/search-resutl/search-resutl.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-shee
     HomeContentComponent,
     SidenavComponent,
     BottomSheetOverviewSocialMediaComponent,
-    DialogOverviewExampleDialog
+    DialogOverviewExampleDialog,
+    SearchResutlComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +53,8 @@ import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-shee
     MatTooltipModule,
     MatBottomSheetModule,
     DragDropModule,
-    MatCardModule
+    MatCardModule,
+    MatInputModule
   ],
   exports: [],
   entryComponents: [BottomSheetOverviewSocialMediaComponent,DialogOverviewExampleDialog],

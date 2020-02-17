@@ -152,45 +152,109 @@
         <mat-grid-list cols="1" rowHeight="2:1">
             <mat-grid-tile>
                 <div>
-                    <span class="input input--nao">
-                    <input class="input__field input__field--nao" type="text" id="input-1" />
-                    <label class="input__label input__label--nao" for="input-1">
-                        <span class="input__label-content input__label-content--nao">Specialist</span>
-                    </label>
-                    <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
-                    </svg>
-                    </span>
-                </div>
-                <div>
-                    <span class="input input--nao">
-                                    <input class="input__field input__field--nao" type="text" id="input-2" />
-                                    <label class="input__label input__label--nao" for="input-2">
-                                        <span class="input__label-content input__label-content--nao">Code Postal</span>
-                    </label>
-                    <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                                        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
-                                    </svg>
-                    </span>
+                    <div id="cnt4-title2">
+                        Make an appointment On fingure tips
+                    </div>
+                    <br>
+                    <div>
+                        <mat-card style="width: 100%; height: 100%;">
+                            <mat-card-content>
+
+                                <div style="justify-content: center; display: flex">
+                                    <div style="flex:3;justify-content: center;">
+                                        <mat-form-field class="example-full-width" style="width: 100%;">
+                                            <mat-label>Specialist</mat-label>
+                                            <input matInput placeholder="Ex. Genaral, Gynacologist, Heart etc">
+                                        </mat-form-field>
+                                    </div>
+                                    <div style="flex:3;justify-content: center;">
+                                        <mat-form-field class="example-full-width" style="width: 100%;">
+                                            <mat-label>Code Postal</mat-label>
+                                            <input matInput placeholder="Ex. 2011 , 78150 etc">
+                                        </mat-form-field>
+                                    </div>
+                                    <div style="flex:1;justify-content: center;">
+                                        <button mat-raised-button color="accent">SEARCH</button>
+                                    </div>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
 
                 </div>
-                <div>
-                    <button mat-raised-button color="accent">SEARCH</button>
-                </div>
+
             </mat-grid-tile>
         </mat-grid-list>
     </div>
 
     <div class="home-cnt7">
-        <mat-grid-list cols="1" rowHeight="2:1">
+        <mat-grid-list cols="2" rowHeight="2:1">
             <mat-grid-tile>
-                <div id="cnt4-title2">
-                    Make an appointment On fingure tips
+                <div>
+                    <div id="cnt4-title2">
+                        Trouvez votre spécialiste
+                    </div>
                 </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+
             </mat-grid-tile>
         </mat-grid-list>
     </div>
 
+    <div class="home-cnt8">
+        <mat-grid-list cols="4" rowHeight="2:2" id="spec">
+            <mat-grid-tile>
+                <div>
+                    <!--no-cnt-->
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div>
+                    <div> Chirurgien-dentiste </div>
+                    <div>Médecin généraliste</div>
+                    <div>Pédiatre</div>
+                    <div>Masseur-kinésithérapeute</div>
+                    <div>Pédicure-podologue</div>
+                    <div>Sage-femme</div>
+                    <div>Chirurgien-dentiste</div>
+                    <div>Médecin généraliste</div>
+                    <div>Pédiatre</div>
+                    <div>Gynécologue médical et obstétrique</div>
+                    <div>Ostéopathe</div>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div>
+                    <div>Gynécologue médical et obstétrique</div>
+                    <div>Ophtalmologue</div>
+                    <div>Dermatologue et vénérologue</div>
+                    <div>Ophtalmologue</div>
+                    <div>Dermatologue et vénérologue</div>
+                    <div>Ostéopathe</div>
+                    <div>Masseur-kinésithérapeute</div>
+                    <div>Pédicure-podologue</div>
+                    <div>Sage-femme</div>
+                    <div>OR</div>
+                    <div>Neurologue</div>
+                </div>
+
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div>
+                    <div>Allergologue</div>
+                    <div>Chirurgien urologue</div>
+                    <div>Rhumatologue</div>
+                    <div>Stomatologue</div>
+                    <div>Endocrinologue</div>
+                    <div>Chirurgien orthopédiste</div>
+                    <div>Diététicien</div>
+                    <div>Psychologue</div>
+                </div>
+
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
     <div class="home-cnt3" (click)="openDialog()">
         <button mat-fab color="primary"><img src="../../../assets/image/call.png" alt="call.png" width="20px"
         height="20px" /></button>

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .home-cnt {
     display: flex;
     flex-direction: column;
@@ -39,7 +40,10 @@
 
 .home-cnt7 {
     flex: 1;
-    border: solid 2px green;
+}
+
+.home-cnt8 {
+    flex: 1;
 }
 
 mat-card {
@@ -157,6 +161,15 @@ u {
     font-family: "Poppins", sans-serif;
 }
 
+#spec {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(42, 100, 150);
+    cursor: pointer;
+}
+
 
 /*
 mat-grid-tile {
@@ -175,7 +188,6 @@ mat-grid-tile {
     font-size: 14px;
     font-weight: 500;
     line-height: 15px;
-    border: #515af6 solid 2px;
     border-radius: 5px;
     display: block;
     width: 185px;
