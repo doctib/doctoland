@@ -27,6 +27,7 @@ import { SidenavComponent } from './component/sidenav/sidenav.component';
 // tslint:disable-next-line: max-line-length
 import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-sheet-overview-social-media/bottom-sheet-overview-social-media.component';
 import { SearchResutlComponent } from './component/search-resutl/search-resutl.component';
+import { AboutusComponent } from './component/aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { SearchResutlComponent } from './component/search-resutl/search-resutl.c
     SidenavComponent,
     BottomSheetOverviewSocialMediaComponent,
     DialogOverviewExampleDialog,
-    SearchResutlComponent
+    SearchResutlComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
