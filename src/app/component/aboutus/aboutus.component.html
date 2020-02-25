@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </mat-grid-tile>
-            <mat-grid-tile>2</mat-grid-tile>
+            <mat-grid-tile></mat-grid-tile>
 
         </mat-grid-list>
     </div>
@@ -175,7 +175,7 @@
 </div>
 
 
-<div class="abt-cnt4">
+<div class="abt-cnt4" style="background-color: #F8F8F8;">
     <!--Here will display the  content-->
     <mat-grid-list cols="2" rowHeight="2:2">
         <mat-grid-tile>
@@ -183,19 +183,49 @@
                 <img src="../../../assets/image/image1.jpg" alt="ourclient.png" />
             </div>
         </mat-grid-tile>
-        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>
+            <div>
+                <div id="cnt4-txt">
+                    We love our clients. They love what we do. That’s how we like it.
+                </div>
+                <br />
+                <br />
+                <div id="cnt4-txt1">
+                    Our goal is to build long-term relationships with our clientele. To become friends and help each other through the years of productive collaboration. This is how we see the new wave of business
+                </div>
+            </div>
+        </mat-grid-tile>
     </mat-grid-list>
 
     <!-- EOF content-->
 </div>
 
 <div class="abt-cnt5">
-    <mat-grid-list cols="2" rowHeight="2:2">
+    <mat-grid-list cols="2" rowHeight="2:1">
         <mat-grid-tile>
-            <div id="cnt5-txt">
-                We love our clients. They love what we do. That’s how we like it.
+            <div>
+                <div id="cnt5-txt">
+                    We respect your privacy, so we never share your info
+                </div>
+                <div id="cnt5-txt1">
+                    Join the Doctland newsletter
+                </div>
             </div>
         </mat-grid-tile>
-        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>
+            <div style="width: 100%;">
+                <mat-card>
+                    <form class="example-form">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Email</mat-label>
+                            <input style="color: green;" matInput placeholder="Ex. pat@example.com">
+                        </mat-form-field>
+                        <button mat-raised-button color="primary" matBadge="8" matBadgePosition="before" matBadgeColor="accent">
+                                subscribe
+                              </button>
+                    </form>
+                </mat-card>
+            </div>
+        </mat-grid-tile>
     </mat-grid-list>
 </div>

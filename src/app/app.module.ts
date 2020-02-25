@@ -13,6 +13,7 @@ import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input'; 
+import {MatBadgeModule} from '@angular/material/badge';
 // EOF Material
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
