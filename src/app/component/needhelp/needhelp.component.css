@@ -1,0 +1,113 @@
+.content-help {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-help {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    min-height: 500px;
+    background-color: #edf1f5;
+    position: relative;
+}
+
+#hp-title {
+    font-size: 26px;
+    line-height: 28.6px;
+    font-weight: 400;
+    color: rgb (67, 95, 113);
+    position: relative;
+    top: 1.5em;
+}
+
+#hp-title1 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb (67, 95, 113);
+    position: relative;
+    top: 3.5em;
+}
+
+#question {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#question>div {
+    flex: 1;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgb(228, 235, 238);
+    display: block;
+    width: 250px;
+    min-height: 50px;
+    border: solid 2px #0093da;
+    border-radius: 25px;
+    margin: 15px;
+    background-color: #0093da;
+}
+
+input[type="text"] {
+    width: 450px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("/assets/image/searchicon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    position: relative;
+    top: 2.3em;
+}
+
+input[type="text"]:focus {
+    width: 50%;
+}
+
+.banner-help1 {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    min-height: 670px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#question-extra {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#question-extra>div {
+    flex: 1;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgb(228, 235, 238);
+    display: block;
+    width: 550px;
+    min-height: 50px;
+    border: solid 2px #0093da;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: #0093da;
+}

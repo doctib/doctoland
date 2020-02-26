@@ -16,6 +16,7 @@ export interface DialogData {
 
 
 
+
 export class HomeContentComponent implements OnInit {
 
   isActive = false

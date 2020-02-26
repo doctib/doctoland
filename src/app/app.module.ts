@@ -14,12 +14,14 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input'; 
 import {MatBadgeModule} from '@angular/material/badge';
+import {MatStepperModule} from '@angular/material/stepper';
 // EOF Material
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './component/menu/menu.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {
   HomeContentComponent,
   DialogOverviewExampleDialog
@@ -29,6 +31,9 @@ import { SidenavComponent } from './component/sidenav/sidenav.component';
 import { BottomSheetOverviewSocialMediaComponent } from './component/bottom-sheet-overview-social-media/bottom-sheet-overview-social-media.component';
 import { SearchResutlComponent } from './component/search-resutl/search-resutl.component';
 import { AboutusComponent } from './component/aboutus/aboutus.component';
+import { ProfessComponent } from './component/profess/profess.component';
+import { NeedhelpComponent } from './component/needhelp/needhelp.component';
+import { ToolbarComponent } from './component/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +44,10 @@ import { AboutusComponent } from './component/aboutus/aboutus.component';
     BottomSheetOverviewSocialMediaComponent,
     DialogOverviewExampleDialog,
     SearchResutlComponent,
-    AboutusComponent
+    AboutusComponent,
+    ProfessComponent,
+    NeedhelpComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +65,11 @@ import { AboutusComponent } from './component/aboutus/aboutus.component';
     MatBottomSheetModule,
     DragDropModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatStepperModule,
+    MatBadgeModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [],
   entryComponents: [BottomSheetOverviewSocialMediaComponent,DialogOverviewExampleDialog],
