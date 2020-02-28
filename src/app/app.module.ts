@@ -34,6 +34,9 @@ import { AboutusComponent } from './component/aboutus/aboutus.component';
 import { ProfessComponent } from './component/profess/profess.component';
 import { NeedhelpComponent } from './component/needhelp/needhelp.component';
 import { ToolbarComponent } from './component/toolbar/toolbar.component';
+import { CareerComponent } from './component/career/career.component';
+import { CareerDescComponent } from './component/career-desc/career-desc.component';
+import { InvestorsComponent } from './component/investors/investors.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +50,10 @@ import { ToolbarComponent } from './component/toolbar/toolbar.component';
     AboutusComponent,
     ProfessComponent,
     NeedhelpComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    CareerComponent,
+    CareerDescComponent,
+    InvestorsComponent
   ],
   imports: [
     BrowserModule,

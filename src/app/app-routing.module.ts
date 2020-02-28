@@ -6,6 +6,9 @@ import { SearchResutlComponent } from './component/search-resutl/search-resutl.c
 import { AboutusComponent } from './component/aboutus/aboutus.component';
 import { ProfessComponent } from './component/profess/profess.component';
 import { NeedhelpComponent } from './component/needhelp/needhelp.component';
+import { CareerComponent } from './component/career/career.component';
+import { CareerDescComponent } from './component/career-desc/career-desc.component';
+import { InvestorsComponent } from './component/investors/investors.component';
 
 
 const routes: Routes = [
@@ -14,7 +17,10 @@ const routes: Routes = [
   {path:'search', component:SearchResutlComponent},
   {path:'aboutus',component: AboutusComponent},
   {path:'professional',component: ProfessComponent},
-  {path:'needhelp',component:NeedhelpComponent}
+  {path:'needhelp',component:NeedhelpComponent},
+  {path:'career', component:CareerComponent},
+  {path:'jobdesc',component: CareerDescComponent},
+  {path:'investor',component:InvestorsComponent}
 ];
 
 @NgModule({
