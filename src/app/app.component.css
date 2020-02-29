@@ -23,3 +23,34 @@
     position: relative;
     z-index: 1;
 }
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-fix {
+   display: none;
+}
+
+.flex-cnt {
+    flex: 23;
+    border: 1px green solid;
+}
+
+.example-box {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: move;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+
+}
+
+}

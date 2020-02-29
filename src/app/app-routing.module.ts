@@ -9,6 +9,8 @@ import { NeedhelpComponent } from './component/needhelp/needhelp.component';
 import { CareerComponent } from './component/career/career.component';
 import { CareerDescComponent } from './component/career-desc/career-desc.component';
 import { InvestorsComponent } from './component/investors/investors.component';
+import { BlogComponent } from './component/blog/blog.component';
+import { BlogPageComponent } from './component/blog-page/blog-page.component';
 
 
 const routes: Routes = [
@@ -20,7 +22,9 @@ const routes: Routes = [
   {path:'needhelp',component:NeedhelpComponent},
   {path:'career', component:CareerComponent},
   {path:'jobdesc',component: CareerDescComponent},
-  {path:'investor',component:InvestorsComponent}
+  {path:'investor',component:InvestorsComponent},
+  {path: 'blog', component: BlogComponent},
+  {path: 'blog-page', component: BlogPageComponent}
 ];
 
 @NgModule({

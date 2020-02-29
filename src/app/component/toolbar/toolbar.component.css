@@ -25,3 +25,36 @@
     display: inline;
     margin: 10px;
 }
+
+#menu{
+  display: none;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+
+  .home-cnt1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+.cnt1-logo {
+   flex: 1;
+    font-size: 16px;
+    line-height: 40px;
+    color: #02034e;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+#menu{
+  display: inline;
+}
+
+#sm{
+  display: none;
+}
+}

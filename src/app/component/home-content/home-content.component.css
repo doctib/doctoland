@@ -5,7 +5,6 @@
 .home-cnt {
     display: flex;
     flex-direction: column;
-    border: #fba1c7 3px solid;
 }
 
 .home-cnt1 {
